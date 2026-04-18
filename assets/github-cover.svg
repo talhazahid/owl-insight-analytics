@@ -1,0 +1,52 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#090A0F"/>
+  <rect x="28" y="28" width="1224" height="584" rx="28" fill="url(#panel)" stroke="#252638"/>
+  <circle cx="1092" cy="144" r="148" fill="url(#glow)" opacity="0.6"/>
+  <circle cx="220" cy="510" r="190" fill="url(#glow2)" opacity="0.22"/>
+  <text x="84" y="120" fill="#F3F4FA" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="700">OwlInsight</text>
+  <text x="84" y="172" fill="#B4B9CE" font-family="Segoe UI, Arial, sans-serif" font-size="28">A cleaner Google Analytics dashboard for GA4 and Search Console.</text>
+
+  <rect x="84" y="220" width="470" height="82" rx="20" fill="#12131B" stroke="#303246"/>
+  <text x="116" y="266" fill="#F5F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="600">Multi-property reporting</text>
+  <text x="116" y="294" fill="#9FA6BF" font-family="Segoe UI, Arial, sans-serif" font-size="18">Review multiple projects without living inside the default GA4 UI.</text>
+
+  <rect x="84" y="324" width="470" height="82" rx="20" fill="#12131B" stroke="#303246"/>
+  <text x="116" y="370" fill="#F5F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="600">Search Console built in</text>
+  <text x="116" y="398" fill="#9FA6BF" font-family="Segoe UI, Arial, sans-serif" font-size="18">Pages, devices, countries, and search visibility in the same workspace.</text>
+
+  <rect x="84" y="428" width="470" height="82" rx="20" fill="#12131B" stroke="#303246"/>
+  <text x="116" y="474" fill="#F5F6FC" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="600">AI reporting and exports</text>
+  <text x="116" y="502" fill="#9FA6BF" font-family="Segoe UI, Arial, sans-serif" font-size="18">Turn widgets into readable summaries, then export or share the report.</text>
+
+  <rect x="668" y="120" width="498" height="346" rx="24" fill="#11121A" stroke="#7646D3"/>
+  <rect x="700" y="156" width="190" height="24" rx="12" fill="#1C1E2B"/>
+  <rect x="700" y="206" width="434" height="78" rx="18" fill="#171924" stroke="#2F3247"/>
+  <rect x="726" y="230" width="196" height="16" rx="8" fill="#F3F4FA"/>
+  <rect x="726" y="255" width="318" height="12" rx="6" fill="#9CA2B9"/>
+  <rect x="700" y="308" width="208" height="126" rx="18" fill="#171924" stroke="#2F3247"/>
+  <rect x="928" y="308" width="206" height="126" rx="18" fill="#171924" stroke="#2F3247"/>
+  <rect x="726" y="332" width="146" height="12" rx="6" fill="#DDE1F2"/>
+  <rect x="726" y="360" width="150" height="10" rx="5" fill="#8EF4B5"/>
+  <rect x="726" y="382" width="124" height="10" rx="5" fill="#8A77FF"/>
+  <rect x="954" y="332" width="116" height="12" rx="6" fill="#DDE1F2"/>
+  <rect x="954" y="360" width="144" height="10" rx="5" fill="#8A77FF"/>
+  <rect x="954" y="382" width="95" height="10" rx="5" fill="#FFB45B"/>
+
+  <rect x="668" y="498" width="266" height="54" rx="16" fill="#FFFFFF"/>
+  <text x="750" y="532" fill="#090A0F" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">owlinsight.dev</text>
+
+  <defs>
+    <linearGradient id="panel" x1="640" y1="28" x2="640" y2="612" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14151D"/>
+      <stop offset="1" stop-color="#0D0E14"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1092 144) rotate(90) scale(148)">
+      <stop stop-color="#7F5AF0"/>
+      <stop offset="1" stop-color="#7F5AF0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(220 510) rotate(90) scale(190)">
+      <stop stop-color="#3ECF8E"/>
+      <stop offset="1" stop-color="#3ECF8E" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

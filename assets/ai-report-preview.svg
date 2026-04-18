@@ -1,0 +1,35 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" fill="#090A0F"/>
+  <rect x="60" y="60" width="1160" height="600" rx="28" fill="#11131B" stroke="#6F49DB"/>
+  <text x="100" y="128" fill="#F4F6FF" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700">AI Reporting</text>
+  <text x="100" y="168" fill="#B4B9CE" font-family="Segoe UI, Arial, sans-serif" font-size="24">Readable summaries from your live dashboard widgets.</text>
+
+  <rect x="100" y="214" width="1080" height="138" rx="20" fill="#171924" stroke="#303246"/>
+  <text x="132" y="256" fill="#E8EBF7" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Performance overview</text>
+  <text x="132" y="296" fill="#C5CADB" font-family="Segoe UI, Arial, sans-serif" font-size="20">Traffic is visible in search, but click-through is weaker than impressions. The quickest gains are likely on the pages already getting attention.</text>
+
+  <rect x="100" y="382" width="520" height="220" rx="20" fill="#171924" stroke="#303246"/>
+  <rect x="660" y="382" width="520" height="220" rx="20" fill="#171924" stroke="#303246"/>
+
+  <text x="132" y="424" fill="#E8EBF7" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Top signals</text>
+  <circle cx="144" cy="466" r="5" fill="#8A77FF"/>
+  <text x="162" y="473" fill="#C5CADB" font-family="Segoe UI, Arial, sans-serif" font-size="20">Homepage impressions are leading the current search visibility.</text>
+  <circle cx="144" cy="508" r="5" fill="#8A77FF"/>
+  <text x="162" y="515" fill="#C5CADB" font-family="Segoe UI, Arial, sans-serif" font-size="20">Mobile appears to be the strongest device segment.</text>
+  <circle cx="144" cy="550" r="5" fill="#8A77FF"/>
+  <text x="162" y="557" fill="#C5CADB" font-family="Segoe UI, Arial, sans-serif" font-size="20">There is room to improve titles and descriptions before expanding content.</text>
+
+  <text x="692" y="424" fill="#E8EBF7" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Snapshot table</text>
+  <rect x="692" y="452" width="456" height="40" rx="12" fill="#1E2030"/>
+  <text x="714" y="478" fill="#F4F6FF" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">Page</text>
+  <text x="920" y="478" fill="#F4F6FF" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">Clicks</text>
+  <text x="1030" y="478" fill="#F4F6FF" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">Observation</text>
+  <rect x="692" y="504" width="456" height="34" rx="10" fill="#171924"/>
+  <text x="714" y="527" fill="#D8DDF0" font-family="Segoe UI, Arial, sans-serif" font-size="16">/</text>
+  <text x="920" y="527" fill="#D8DDF0" font-family="Segoe UI, Arial, sans-serif" font-size="16">7</text>
+  <text x="1030" y="527" fill="#D8DDF0" font-family="Segoe UI, Arial, sans-serif" font-size="16">Strong visibility, needs a better click hook</text>
+  <rect x="692" y="546" width="456" height="34" rx="10" fill="#171924"/>
+  <text x="714" y="569" fill="#D8DDF0" font-family="Segoe UI, Arial, sans-serif" font-size="16">/flac-to-mp3</text>
+  <text x="920" y="569" fill="#D8DDF0" font-family="Segoe UI, Arial, sans-serif" font-size="16">1</text>
+  <text x="1030" y="569" fill="#D8DDF0" font-family="Segoe UI, Arial, sans-serif" font-size="16">Useful intent, still early-stage</text>
+</svg>
