@@ -18,6 +18,7 @@ Then copy the contents of this folder into that new repository.
 - `PRODUCT.md`
 - `LICENSE.md`
 - `assets/`
+- `frontend/` static HTML/CSS preview
 
 ## What not to include
 

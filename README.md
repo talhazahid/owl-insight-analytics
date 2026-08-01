@@ -1,8 +1,6 @@
-Yeh direct `README.md` me paste kar do:
-
 # OwlInsight: Free Google Analytics Alternative Dashboard for GA4
 
-[Visit Website](https://owlinsight.dev/) | [View Demo](https://owlinsight.dev/demo) | [Pricing](https://owlinsight.dev/pricing) | [How It Works](https://owlinsight.dev/how-it-works) | [Read Article](https://owlinsight.dev/blog/google-analytics-alternative)
+[Visit Website](https://owlinsight.dev/) | [View Demo](https://owlinsight.dev/demo) | [Frontend UI](./frontend/) | [Pricing](https://owlinsight.dev/pricing) | [How It Works](https://owlinsight.dev/how-it-works)
 
 ![Free Google Analytics alternative dashboard for GA4 and Search Console](./assets/hero-home.png)
 
@@ -217,9 +215,9 @@ Yes. OwlInsight brings key Google Search Console views into the same reporting w
 
 ### Is OwlInsight open source?
 
-This public repository is used for product visibility, screenshots, links, backlinks, and updates.
-
-The production application source code is not included in this repository.
+This public repository contains product information, screenshots, and a standalone
+HTML/CSS frontend preview. The production backend, authentication, API, database,
+billing, MCP, WordPress transport, and deployment source code are not included.
 
 ## Useful links
 

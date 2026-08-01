@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A static frontend preview of the OwlInsight Google Analytics dashboard interface."
+    />
+    <title>OwlInsight Frontend UI Preview</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="https://owlinsight.dev" aria-label="OwlInsight website">
+        <span class="brand-mark" aria-hidden="true">O</span>
+        <span>OWLINSIGHT</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="https://owlinsight.dev/google-analytics-alternative-owl-insight">Why OwlInsight</a>
+        <a href="https://owlinsight.dev/how-it-works">How it works</a>
+        <a href="https://owlinsight.dev/pricing">Pricing</a>
+        <a href="https://owlinsight.dev/about">About</a>
+      </nav>
+      <div class="header-actions">
+        <a class="button button-primary" href="https://owlinsight.dev/dashboard">View dashboard</a>
+        <button class="theme-toggle" type="button" aria-label="Switch color theme">◐</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">The simple way to understand Google Analytics</p>
+          <h1>Your Google Analytics data, <span>in one simple view.</span></h1>
+          <p class="hero-intro">
+            OwlInsight turns the GA4 data you already collect into a calmer dashboard for
+            traffic, engagement, pages, countries, devices, and events.
+          </p>
+
+          <div class="feature-list" aria-label="OwlInsight highlights">
+            <span>Google Analytics + Search Console</span>
+            <span>Websites and apps</span>
+            <span>Shareable reports</span>
+            <span>PDF export</span>
+          </div>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://owlinsight.dev/demo">View live demo</a>
+            <a class="button button-secondary" href="https://owlinsight.dev">Get started</a>
+          </div>
+
+          <div class="trust-row">
+            <div class="avatars" aria-hidden="true">
+              <span>AK</span><span>MR</span><span>LT</span><span>JT</span>
+            </div>
+            <div>
+              <div class="stars" aria-label="Five out of five stars">★★★★★</div>
+              <p>Trusted by digital teams and agencies</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="dashboard-preview" aria-label="Static OwlInsight dashboard preview">
+          <div class="metric-strip">
+            <article><small>Unique visitors</small><strong>196</strong><em class="down">↘ 9.7%</em></article>
+            <article><small>Total visits</small><strong>213</strong><em class="down">↘ 12%</em></article>
+            <article><small>Total pageviews</small><strong>283</strong><em class="down">↘ 10%</em></article>
+            <article><small>Views per visit</small><strong>1.33</strong><em class="up">↗ 2.2%</em></article>
+            <article><small>Bounce rate</small><strong>57.3%</strong><em class="up">↗ 2.7%</em></article>
+            <article><small>Visit duration</small><strong>1m 52s</strong><em class="down">↘ 27%</em></article>
+          </div>
+
+          <div class="widget-grid">
+            <article class="widget-card">
+              <header><span class="ga-mark" aria-hidden="true">▥</span><h2>Traffic sources</h2></header>
+              <p>Primary channel groups driving sessions</p>
+              <div class="table-head"><span>Source</span><span>Sessions</span><span>Share</span></div>
+              <div class="data-row"><span><i>→</i>Direct</span><strong>279</strong><strong>46.6%</strong></div>
+              <div class="data-row"><span><i class="green">⌁</i>Organic Search</span><strong>320</strong><strong>53.4%</strong></div>
+            </article>
+
+            <article class="widget-card">
+              <header><span class="ga-mark" aria-hidden="true">▥</span><h2>Countries</h2></header>
+              <p>Countries by active users</p>
+              <div class="table-head"><span>Country</span><span>Users</span><span>Share</span></div>
+              <div class="data-row"><span>🇺🇸 United States</span><strong>251</strong><strong>46.2%</strong></div>
+              <div class="data-row"><span>🇬🇧 United Kingdom</span><strong>292</strong><strong>53.8%</strong></div>
+            </article>
+
+            <article class="widget-card">
+              <header><span class="ga-mark" aria-hidden="true">▥</span><h2>Pages and screens</h2></header>
+              <p>Most viewed page paths</p>
+              <div class="table-head"><span>Page</span><span>Views</span><span>Share</span></div>
+              <div class="data-row"><span>/products</span><strong>251</strong><strong>46.2%</strong></div>
+              <div class="data-row"><span>/collections/new-arrivals</span><strong>292</strong><strong>53.8%</strong></div>
+            </article>
+
+            <article class="widget-card">
+              <header><span class="ga-mark" aria-hidden="true">▥</span><h2>Referrers</h2></header>
+              <p>Top source domains</p>
+              <div class="table-head"><span>Referrer</span><span>Sessions</span><span>Share</span></div>
+              <div class="data-row"><span><i class="google">G</i>Google</span><strong>202</strong><strong>45.4%</strong></div>
+              <div class="data-row"><span><i class="x">X</i>Twitter</span><strong>243</strong><strong>54.6%</strong></div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Static frontend demonstration only. No authentication, analytics API, database, billing,
+      WordPress, or MCP server code is included.
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
