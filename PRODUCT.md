@@ -1,66 +1,15 @@
-# OwlInsight Product Overview
+# Product overview
 
-OwlInsight is a Google Analytics alternative interface for teams that still rely on GA4 but do not want to work inside the default Google Analytics UI every day.
+OwlInsight is a reporting workspace for site owners, marketing teams and agencies using Google Analytics 4.
 
-Instead of replacing your analytics setup, OwlInsight sits on top of the Google properties you already use and gives you a cleaner reporting workspace.
+| Workspace | What it answers | Data source |
+| --- | --- | --- |
+| Reports | Where are visits coming from, and which pages are performing? | Your connected GA4 property |
+| Funnels | How many users made it through each step, and where did they drop off? | Pages, screens and events in GA4 |
+| Heatmaps | Where do visitors click, and how far down a page do they scroll? | Click and scroll data collected by the OwlInsight snippet |
 
-## Core product idea
+For a sign-up funnel, you can compare visits to the landing page, views of the pricing page and the final sign-up event. Then open a heatmap to examine page interactions, such as clicks around the pricing call to action. A heatmap shows interactions and does not by itself establish why people left a funnel.
 
-OwlInsight helps teams:
+An agency can switch among connected client properties and share a dashboard report when its plan supports sharing. A site owner can compare traffic across date ranges and review the pages or sources driving changes.
 
-- review multiple properties in one place
-- focus on the most useful widgets first
-- keep exports and shareable reports close to the dashboard
-- use AI reporting without building custom analytics docs every week
-- combine Google Analytics and Search Console views in one calmer workflow
-
-## Main use cases
-
-### Agencies
-
-- review several client properties without bouncing between GA accounts
-- export cleaner reports for clients
-- share dashboard links faster
-
-### Marketing teams
-
-- watch pages, devices, countries, channels, and trends in one place
-- spot changes faster than in the default GA4 interface
-- use AI reporting to turn widget data into readable summaries
-
-### Founders and small teams
-
-- keep the familiar Google Analytics setup
-- skip the heavy default reporting flow
-- get a simpler daily dashboard
-
-## What makes OwlInsight different
-
-- It does not ask teams to replace GA4.
-- It does not require a second analytics setup.
-- It keeps the workflow read-only.
-- It focuses on usability, not analytics theory.
-- It makes Google Search Console easier to review next to Google Analytics.
-
-## Best pages to link from this public repo
-
-- Homepage: https://owlinsight.dev/
-- Demo: https://owlinsight.dev/demo
-- Pricing: https://owlinsight.dev/pricing
-- About: https://owlinsight.dev/about
-- How it works: https://owlinsight.dev/how-it-works
-- Blog article: https://owlinsight.dev/blog/google-analytics-alternative
-- Support: https://owlinsight.dev/support
-- Contact: https://owlinsight.dev/contact
-
-## Public repo content strategy
-
-If you want this repository to bring in more traffic, keep it active with content like:
-
-- updated screenshots every time the dashboard changes
-- release notes when a major feature ships
-- short product posts about AI reporting, exports, or Search Console support
-- roadmap notes about what is coming next
-- links to your main site, pricing page, demo page, and blog
-
-GitHub is better for discovery, trust, and referral traffic than for protecting product code. Use this repo as a public storefront, not as the production codebase.
+[Explore the sample workspace](https://owlinsight.dev/demo) · [See setup steps](https://owlinsight.dev/how-it-works) · [View plan availability](https://owlinsight.dev/pricing)
